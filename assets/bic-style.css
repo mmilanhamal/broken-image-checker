@@ -1,0 +1,68 @@
+#wrap{
+  height: auto;
+  width:auto;
+  border: 1px solid #F1F1F1;
+  box-shadow: 1px 1px 1px 1px #888888;
+  margin: 10px 10px 10px 5px;
+  text-align: center;
+
+}
+.bic-plugin-header {
+  width: auto;
+  max-height: 100px;
+  background-color: #0C5D73;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 3px 0px #ccc;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 0;
+  margin-bottom: 15px
+  
+}
+#bic-table table {
+    /* border: 1px solid rebeccapurple; */
+    box-shadow: 1px 2px 2px 2px #888888;
+    width: 90%;
+    background-color: #fff;
+    border-collapse: collapse;
+    margin: 0 0 0 50px;
+
+
+}
+#bic-table table thead {
+    font-size: 15px;   
+    background-color: #f1f1f1;
+}
+#bic-table table, #bic-table th, #bic-table td {
+    border: 1px solid black;
+}
+.msg-box {
+    height: 150px;
+    width: 381px;
+    margin: 20px;
+    padding: 0, 0, 20px, 0;
+    /* box-shadow: 1px 1px 1px #888888; */
+    border: 1px solid #aaaaaa;
+    text-align: center;
+    /* font-size: 15px; */
+    margin-top: 20px;
+
+
+}
+.msg {
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0C5D73;
+    padding: 10px;
+}
+.msg-box button{
+    display: inline-block;
+    margin-top: 25px;
+}
+.msg-box button:hover {
+    cursor: pointer; 
+}
